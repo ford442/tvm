@@ -272,8 +272,8 @@ set(USE_CMSISNN OFF)
 #                        offloaded to TensorRT. OFF/ON
 # USE_TENSORRT_RUNTIME - Support for running TensorRT compiled modules, requires presense of
 #                        TensorRT library. OFF/ON/"path/to/TensorRT"
-set(USE_TENSORRT_CODEGEN ON)
-set(USE_TENSORRT_RUNTIME ON)
+set(USE_TENSORRT_CODEGEN OFF)
+set(USE_TENSORRT_RUNTIME OFF)
 
 # Whether use VITIS-AI codegen
 set(USE_VITIS_AI OFF)
@@ -338,7 +338,7 @@ set(USE_HEXAGON_ARCH "v66")
 set(USE_HEXAGON_QHL OFF)
 
 # Whether to use ONNX codegen
-set(USE_TARGET_ONNX OFF)
+set(USE_TARGET_ONNX ON)
 
 # Whether enable BNNS runtime
 set(USE_BNNS OFF)
@@ -350,7 +350,7 @@ set(USE_BNNS OFF)
 # - AUTO: auto set according to system information and feasibility
 # - ON: enable libbacktrace
 # - OFF: disable libbacktrace
-set(USE_LIBBACKTRACE ON)
+set(USE_LIBBACKTRACE AUTO)
 
 # Whether to install a signal handler to print a backtrace on segfault. This
 # may replace existing signal handlers specified by other libraries.
