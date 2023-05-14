@@ -142,7 +142,7 @@ set(USE_MICRO_STANDALONE_RUNTIME OFF)
 # - OFF: disable llvm, note this will disable CPU codegen
 #        which is needed for most cases
 # - /path/to/llvm-config: enable specific LLVM when multiple llvm-dev is available.
-set(USE_LLVM OFF)
+set(USE_LLVM ON)
 
 #---------------------------------------------
 # Contrib libraries
@@ -424,7 +424,7 @@ set(SUMMARIZE OFF)
 # Whether to use LibTorch as backend
 # To enable pass the path to the root libtorch (or PyTorch) directory
 # OFF or /path/to/torch/
-set(USE_LIBTORCH OFF)
+set(USE_LIBTORCH ON)
 
 # Whether to use the Universal Modular Accelerator Interface
 set(USE_UMA OFF)
