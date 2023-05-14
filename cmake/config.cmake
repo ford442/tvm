@@ -123,7 +123,7 @@ set(USE_STACKVM_RUNTIME OFF)
 set(USE_GRAPH_EXECUTOR ON)
 
 # Whether enable tiny graph executor with CUDA Graph
-set(USE_GRAPH_EXECUTOR_CUDA_GRAPH OFF)
+set(USE_GRAPH_EXECUTOR_CUDA_GRAPH ON)
 
 # Whether enable pipeline executor.
 set(USE_PIPELINE_EXECUTOR OFF)
@@ -350,7 +350,7 @@ set(USE_BNNS OFF)
 # - AUTO: auto set according to system information and feasibility
 # - ON: enable libbacktrace
 # - OFF: disable libbacktrace
-set(USE_LIBBACKTRACE AUTO)
+set(USE_LIBBACKTRACE ON)
 
 # Whether to install a signal handler to print a backtrace on segfault. This
 # may replace existing signal handlers specified by other libraries.
