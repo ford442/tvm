@@ -272,8 +272,8 @@ set(USE_CMSISNN OFF)
 #                        offloaded to TensorRT. OFF/ON
 # USE_TENSORRT_RUNTIME - Support for running TensorRT compiled modules, requires presense of
 #                        TensorRT library. OFF/ON/"path/to/TensorRT"
-set(USE_TENSORRT_CODEGEN OFF)
-set(USE_TENSORRT_RUNTIME OFF)
+set(USE_TENSORRT_CODEGEN ON)
+set(USE_TENSORRT_RUNTIME ON)
 
 # Whether use VITIS-AI codegen
 set(USE_VITIS_AI OFF)
